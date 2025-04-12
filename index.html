@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de web</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            color: #333333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0004ff91;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #6d62d6d5;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff6347;
+        }
+        .carrossel {
+            display: flex;
+            overflow: hidden;
+            width: 100%;
+            margin: 20px 0;
+        }
+        .carrossel img {
+            width: 100%;
+            animation: slide 10s infinite;
+        }
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            33% { transform: translateX(-100%); }
+            66% { transform: translateX(-200%); }
+            100% { transform: translateX(0); }
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin: 20px 0;
+        }
+        .galeria {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .galeria img {
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #4682b4;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+<style>
+    @keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+h1 {
+    font-size: 3em;
+    background: linear-gradient(90deg, #ff0066, #6600ff, #00ccff);
+    background-size: 200% 200%;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 3s infinite;
+}
+</style>
+<style>
+    div {
+    width: 200px;
+    height: 200px;
+    background: black;
+    border: 4px solid transparent;
+    border-image: linear-gradient(45deg, #ff0066, #00ccff, #6600ff) 1;
+    box-shadow: 0 0 20px #6600ff;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Site de DESIGN DE INTERAÇÃO (UX/UI)</h1>
+    </header>
+    <nav>
+        <a href="#sobre">Definição</a>
+        <a href="#servicos">Sub-áreas</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#empresa">Aplicação</a>
+        <a href="#equipe">Equipe</a>
+        <a href="#salário">Papéis Principais</a>
+        <a href="#futuro">Futuro da Àrea</a>
+    </nav>
+    <section class="carrossel">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSokSSIG89mzpfUOTr3Qyyv6Y4twHcffPwKsw&s" alt="Slide 1">
+        <img src="https://img.freepik.com/fotos-gratis/representacoes-da-experiencia-do-usuario-e-design-de-interface_23-2150104516.jpg" alt="Slide 2">
+        <img src="https://i.pinimg.com/736x/80/f0/88/80f088569ff9ef04be1b41b3971f85b8.jpg" alt="Slide 3">
+    </section>
+    <main>
+        <section id="sobre">
+            <h2>Definição</h2>        
+        <section id="servicos">
+           <p>O Design de Interação (UX/UI) busca criar experiências digitais eficientes e agradáveis. Ele combina o UX (focado na experiência do usuário) e o UI (centrado na interface visual e interativa)
+            UX Design: Focado na experiência geral do usuário, o UX Design busca entender as necessidades e comportamentos dos usuários para criar soluções eficientes e satisfatórias. Ele envolve pesquisa, usabilidade, arquitetura da informação e design centrado no usuário.
+            UI Design: Concentra-se na aparência visual e na interação do usuário com o produto. O UI Design trabalha com elementos como layouts, botões, ícones e animações para garantir que a interface seja atraente e fácil de usar.
+           </p>
+        </section>
+            <h2>Sub-áreas</h2>
+            <ul>
+                <li>Design de Interação: Define como os usuários interagem com os elementos da interface, como botões e animações.</li>
+                <li>Arquitetura de Informação: Responsável por organizar e estruturar informações de forma clara e intuitiva, incluindo mapas de site e wireframes.</li>
+                <li>Design de Interface:Concentra-se na aparência visual, como tipografia, cores e elementos gráficos.
+                </li>
+            </ul>
+            <section id="#empresa">
+                <h2>Aplicação na industria</h2>
+                <ul>
+                    <li>E-commerce Industrial</li>
+                    <li>Automação Industrial</li>
+                    <li>Saúde</li>
+                </ul>
+                <section id="salário">
+                    <h2>Principais Papéis</h2>
+                    <ul>
+                        <li>UX Designer: 4.000 a R$ 12.000 </li>
+                        <li>UI Designer: 3.500 a R$ 10.000 </li>
+                        <li>UX Writer: 3.000 a R$ 8.000 </li>
+                    </ul>
+                    <section id="futuro">
+                        <h3>Futuro da Àrea</h3>
+                        <ul>
+                            <li>Realidade Virtual: Interfaces imersivas estão ganhando espaço, permitindo experiências mais interativas e envolventes, especialmente em setores como e-commerce, educação e saúde.</li>
+                            <li>Inteligência Artificial: Interfaces imersivas estão ganhando espaço, permitindo experiências mais interativas e envolventes, especialmente em setores como e-commerce, educação e saúde. </li>
+                            <li>Microinterações e Personalização:Usando aprendizado de máquina, as interfaces poderão se adaptar de forma ainda mais precisa às necessidades individuais dos usuários, criando experiências únicas.</li>
+                            <h2>Inovação</h2>
+                            <li>Biofeedback:Pequenos detalhes de design, como animações e feedback visual, que tornam a experiência mais fluida e envolvente.</li>
+                            <li>Interfaces Adaptativas:Ferramentas que garantem que interfaces sejam acessíveis para todos, incluindo pessoas com deficiências, com o uso de leitores de tela e navegação por voz.</li>
+                            <h2>Perspectiva</h2>
+                            <li>Automatização criativa com IA: A inteligência artificial está otimizando processos criativos, permitindo a geração rápida e eficiente de conteúdo em áreas como design, escrita e música.</li>
+                            <li>Interação Multisensorial:Combina múltiplos sentidos, como visão, audição e tato, para criar experiências digitais imersivas por meio de tecnologias como realidade aumentada e virtual.</li>
+                            <li>Tecnologias mais sustentáveis:A inovação tecnológica está focada em práticas ecológicas, como otimizar o uso de energia e reduzir desperdícios, promovendo um futuro mais sustentável.</li>
+                        </ul>
+        </section>
+        <section id="galeria">
+            <h2>Galeria</h2>
+            <div class="galeria">
+                <img src="https://i.pinimg.com/736x/09/4c/e7/094ce7b2ed26536b92a6829381b48efc.jpg" alt="Imagem 2">
+            </div>
+        </section>
+        <section id="equipe">
+            <h2>Equipe</h2>
+            <p>Criador:</p>
+            <ul>
+                <li>kaue - Desenvolvedor da Pagína </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Site Completo.</p>
+    </footer>
+</body>
+</html>
